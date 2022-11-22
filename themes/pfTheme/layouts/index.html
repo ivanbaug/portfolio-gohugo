@@ -1,0 +1,540 @@
+{{ define "main" }}
+<div class="container pt-6 pb-4">
+    <div class="row">
+        <div class="col-md d-flex align-items-center">
+            <img class="mx-auto d-block align-middle" src="https://ivanotes.s3.amazonaws.com/img/0026-iv.png"
+                alt="profile-picture">
+        </div>
+        <div class="col-md-6 d-flex align-items-center flex-column">
+            <h1 class="name">Ivan Bautista</h1>
+            <h2 class="occupation pb-4">Mechatronics Engineer</h2>
+            <p class="intro">
+                I'm an engineer with experience in design and execution of control, automation and monitoring
+                systems in the HVAC field.
+            </p>
+            <p class="intro">
+                Looking to develop skills in software development to pursue a career in this ever expanding industry.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Projects section begins here -->
+<div class="container-fluid pt-5 pb-5 alt-color" id="projects">
+    <div class="container">
+        <div class="row pb-5">
+            <div class="col-lg-4 col-md-3 subtitle2">
+                <hr>
+            </div>
+            <div class="col-lg-4 col-md-6 subtitle2">My projects</div>
+            <div class="col-lg-4 col-md-3 subtitle2">
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container text-center my-3">
+                <div class="row mx-auto my-auto justify-content-center position-relative
+          row-cols-1 row-cols-sm-2 row-cols-md-3 prj-container">
+
+
+                    <div class="col p-1 prj-card-wrapper">
+                        <article class="prj-card d-flex flex-column">
+                            <img src="https://ivanotes.s3.amazonaws.com/img/0047-pf-btrobot.png" alt="Bluetooth Robot">
+                            <div class="prj-card-title mt-1">Bluetooth Robot</div>
+                            <div class="prj-card-description">Bluetooth controlled robot with a working prototype. Wrote
+                                the code for both the microcontroller and the android app.</div>
+                            <div class="flex-grow-1"></div>
+                            <div class="mt-2">
+
+                                <span class="prj-tags">Java</span>
+
+                                <span class="prj-tags">C++</span>
+
+                                <span class="prj-tags">Android</span>
+
+                            </div>
+
+                            <div class="prj-button-container mt-2">
+                                <a type="button" href="https://github.com/ivanbaug/bt-rbot"
+                                    class="btn btn-sm btn-outline-secondary py-0">Code</a>
+
+                                <span class="demo-msg">Not online</span>
+
+
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col p-1 prj-card-wrapper">
+                        <article class="prj-card d-flex flex-column">
+                            <img src="https://ivanotes.s3.amazonaws.com/img/0048-dcapp3.png" alt="Controller Selector">
+                            <div class="prj-card-title mt-1">Controller Selector</div>
+                            <div class="prj-card-description">Webapp I made to easily select combinations of devices for
+                                a previous job given required i/o&#39;s</div>
+                            <div class="flex-grow-1"></div>
+                            <div class="mt-2">
+
+                                <span class="prj-tags">Python</span>
+
+                                <span class="prj-tags">html</span>
+
+                                <span class="prj-tags">css</span>
+
+                                <span class="prj-tags">JavaScript</span>
+
+                                <span class="prj-tags">Flask</span>
+
+                            </div>
+
+                            <div class="prj-button-container mt-2">
+                                <a type="button" href="https://github.com/ivanbaug/dc-ctrls"
+                                    class="btn btn-sm btn-outline-secondary py-0">Code</a>
+
+                                <a type="button" href="https://dc-ctrls-jdm27gv2nq-ue.a.run.app/"
+                                    class="btn btn-sm btn-outline-secondary py-0">Demo</a>
+
+
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col p-1 prj-card-wrapper">
+                        <article class="prj-card d-flex flex-column">
+                            <img src="https://ivanotes.s3.amazonaws.com/img/0059-cafe1.png" alt="Coffee and WiFi">
+                            <div class="prj-card-title mt-1">Coffee and WiFi</div>
+                            <div class="prj-card-description">Site for sharing and rating coffee shops, specially the
+                                ones used for remote-work. You can rate seats, sockets, wifi, others.</div>
+                            <div class="flex-grow-1"></div>
+                            <div class="mt-2">
+
+                                <span class="prj-tags">Python</span>
+
+                                <span class="prj-tags">JavaScript</span>
+
+                                <span class="prj-tags">Django</span>
+
+                                <span class="prj-tags">React</span>
+
+                                <span class="prj-tags">Redux</span>
+
+                                <span class="prj-tags">Postgres</span>
+
+                            </div>
+
+                            <div class="prj-button-container mt-2">
+                                <a type="button" href="https://github.com/ivanbaug/cafe-wifi"
+                                    class="btn btn-sm btn-outline-secondary py-0">Code</a>
+
+                                <a type="button" href="https://cafe-wifi-yctxl3no4a-ue.a.run.app"
+                                    class="btn btn-sm btn-outline-secondary py-0">Demo</a>
+
+
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col p-1 prj-card-wrapper">
+                        <article class="prj-card d-flex flex-column">
+                            <img src="https://ivanotes.s3.amazonaws.com/img/0049-shop1.png" alt="e-commerce site">
+                            <div class="prj-card-title mt-1">e-commerce site</div>
+                            <div class="prj-card-description">Complete ecommerce app using Django and React, frontend in
+                                an AWS bucket, back in GCP. AWS hosted Postgres DB.</div>
+                            <div class="flex-grow-1"></div>
+                            <div class="mt-2">
+
+                                <span class="prj-tags">Python</span>
+
+                                <span class="prj-tags">html</span>
+
+                                <span class="prj-tags">css</span>
+
+                                <span class="prj-tags">JavaScript</span>
+
+                                <span class="prj-tags">Django</span>
+
+                                <span class="prj-tags">React</span>
+
+                            </div>
+
+                            <div class="prj-button-container mt-2">
+                                <a type="button" href="https://github.com/ivanbaug/ecommerce-rd-backend"
+                                    class="btn btn-sm btn-outline-secondary py-0">Code</a>
+
+                                <a type="button" href="http://iv-shop.s3-website-us-east-1.amazonaws.com/"
+                                    class="btn btn-sm btn-outline-secondary py-0">Demo</a>
+
+
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col p-1 prj-card-wrapper">
+                        <article class="prj-card d-flex flex-column">
+                            <img src="https://ivanotes.s3.amazonaws.com/img/0058-wnscrape.png" alt="WebNovel Scrape">
+                            <div class="prj-card-title mt-1">WebNovel Scrape</div>
+                            <div class="prj-card-description">Web Novel Scrape, is the result of the wish to keep
+                                reading a japanese webnovel that is not released in english yet, but it&#39;s available
+                                for free in japanese.</div>
+                            <div class="flex-grow-1"></div>
+                            <div class="mt-2">
+
+                                <span class="prj-tags">Python</span>
+
+                                <span class="prj-tags">bs4</span>
+
+                                <span class="prj-tags">Translate API</span>
+
+                            </div>
+
+                            <div class="prj-button-container mt-2">
+                                <a type="button" href="https://github.com/ivanbaug/wn-scrape"
+                                    class="btn btn-sm btn-outline-secondary py-0">Code</a>
+
+                                <span class="demo-msg">Not online</span>
+
+
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col p-1 prj-card-wrapper">
+                        <article class="prj-card d-flex flex-column">
+                            <img src="https://ivanotes.s3.amazonaws.com/img/065-sw-text.png" alt="Starwars Test">
+                            <div class="prj-card-title mt-1">Starwars Test</div>
+                            <div class="prj-card-description">Frontend app that presents data from the StarWars API.
+                                Made with react, redux and axios as part of a selection process for a dev job. .</div>
+                            <div class="flex-grow-1"></div>
+                            <div class="mt-2">
+
+                                <span class="prj-tags">JavaScript</span>
+
+                                <span class="prj-tags">React</span>
+
+                                <span class="prj-tags">Redux</span>
+
+                                <span class="prj-tags">axios</span>
+
+                            </div>
+
+                            <div class="prj-button-container mt-2">
+                                <a type="button" href="https://github.com/ivanbaug/starwars-react"
+                                    class="btn btn-sm btn-outline-secondary py-0">Code</a>
+
+                                <a type="button" href="https://ivanbaug.github.io/starwars-react/"
+                                    class="btn btn-sm btn-outline-secondary py-0">Demo</a>
+
+
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col p-1 prj-card-wrapper">
+                        <article class="prj-card d-flex flex-column">
+                            <img src="https://www.tuexpertoapps.com/wp-content/uploads/2021/05/los-mejores-bots-para-telegram-1-768x512.jpg"
+                                alt="Telegram bot">
+                            <div class="prj-card-title mt-1">Telegram bot</div>
+                            <div class="prj-card-description">Telegram bot that tells the weather and scraps a webpage
+                                to notify me on updates about a webnovel I like. The project is online trough a Docker
+                                container in a Raspberry Pi</div>
+                            <div class="flex-grow-1"></div>
+                            <div class="mt-2">
+
+                                <span class="prj-tags">Python</span>
+
+                                <span class="prj-tags">Telegram API</span>
+
+                            </div>
+
+                            <div class="prj-button-container mt-2">
+                                <a type="button" href="https://github.com/ivanbaug/informative_telegram"
+                                    class="btn btn-sm btn-outline-secondary py-0">Code</a>
+
+                                <span class="demo-msg">Not online</span>
+
+
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col p-1 prj-card-wrapper">
+                        <article class="prj-card d-flex flex-column">
+                            <img src="https://ivanotes.s3.amazonaws.com/img/0051-icecreamprod.png"
+                                alt="Ice Cream Plant Simulator">
+                            <div class="prj-card-title mt-1">Ice Cream Plant Simulator</div>
+                            <div class="prj-card-description">A 3D simulator that interfaces with a microcontroller to
+                                test Siemens PLC programs where the user can evaluate multiple scenarios of the ice
+                                cream production process.</div>
+                            <div class="flex-grow-1"></div>
+                            <div class="mt-2">
+
+                                <span class="prj-tags">C#</span>
+
+                                <span class="prj-tags">C++</span>
+
+                                <span class="prj-tags">.Net</span>
+
+                                <span class="prj-tags">Unity</span>
+
+                                <span class="prj-tags">Blender</span>
+
+                            </div>
+
+                            <div class="prj-button-container mt-2">
+                                <a type="button" href="https://github.com/ivanbaug/unity-icecream"
+                                    class="btn btn-sm btn-outline-secondary py-0">Code</a>
+
+                                <span class="demo-msg">Not online</span>
+
+
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col p-1 prj-card-wrapper">
+                        <article class="prj-card d-flex flex-column">
+                            <img src="https://ivanotes.s3.amazonaws.com/img/0050-blogpy2.png" alt="Python blog">
+                            <div class="prj-card-title mt-1">Python blog</div>
+                            <div class="prj-card-description">Blog made while learning python, including DBs, user auth,
+                                templating. Previously hosted on heroku, now on Railway.</div>
+                            <div class="flex-grow-1"></div>
+                            <div class="mt-2">
+
+                                <span class="prj-tags">Python</span>
+
+                                <span class="prj-tags">html</span>
+
+                                <span class="prj-tags">css</span>
+
+                                <span class="prj-tags">JavaScript</span>
+
+                                <span class="prj-tags">Flask</span>
+
+                            </div>
+
+                            <div class="prj-button-container mt-2">
+                                <a type="button" href="https://github.com/ivanbaug/blog-users"
+                                    class="btn btn-sm btn-outline-secondary py-0">Code</a>
+
+                                <a type="button" href="https://web-production-5bde.up.railway.app/"
+                                    class="btn btn-sm btn-outline-secondary py-0">Demo</a>
+
+
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col p-1 prj-card-wrapper">
+                        <article class="prj-card d-flex flex-column">
+                            <img src="https://ivanotes.s3.amazonaws.com/img/066-github-finder.png" alt="Github Finder">
+                            <div class="prj-card-title mt-1">Github Finder</div>
+                            <div class="prj-card-description">App that uses the Github API to search and visualize users
+                                on that platform. Made as part of a react course.</div>
+                            <div class="flex-grow-1"></div>
+                            <div class="mt-2">
+
+                                <span class="prj-tags">React</span>
+
+                                <span class="prj-tags">Context API</span>
+
+                                <span class="prj-tags">tailwind</span>
+
+                                <span class="prj-tags">JavaScript</span>
+
+                            </div>
+
+                            <div class="prj-button-container mt-2">
+                                <a type="button" href="https://github-finder-livid-seven.vercel.app/"
+                                    class="btn btn-sm btn-outline-secondary py-0">Code</a>
+
+                                <a type="button" href="github-finder-ivanbaug.vercel.app"
+                                    class="btn btn-sm btn-outline-secondary py-0">Demo</a>
+
+
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col p-1 prj-card-wrapper">
+                        <article class="prj-card d-flex flex-column">
+                            <img src="https://ivanotes.s3.amazonaws.com/img/0053-dissapeartext.png"
+                                alt="Dissapearing Text">
+                            <div class="prj-card-title mt-1">Dissapearing Text</div>
+                            <div class="prj-card-description">Notepad-like app that waits only a few seconds before
+                                erasing what you wrote. The idea is that you try to write constantly.</div>
+                            <div class="flex-grow-1"></div>
+                            <div class="mt-2">
+
+                                <span class="prj-tags">Python</span>
+
+                                <span class="prj-tags">Tkinter</span>
+
+                                <span class="prj-tags">Desktop</span>
+
+                            </div>
+
+                            <div class="prj-button-container mt-2">
+                                <a type="button" href="https://github.com/ivanbaug/dissapearing-text"
+                                    class="btn btn-sm btn-outline-secondary py-0">Code</a>
+
+                                <span class="demo-msg">Not online</span>
+
+
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col p-1 prj-card-wrapper">
+                        <article class="prj-card d-flex flex-column">
+                            <img src="https://ivanotes.s3.amazonaws.com/img/0056-typespeed.png" alt="Typing Speed Test">
+                            <div class="prj-card-title mt-1">Typing Speed Test</div>
+                            <div class="prj-card-description">Desktop app to measures the typing speed of the user.
+                                Follows visually the characters as the user types.</div>
+                            <div class="flex-grow-1"></div>
+                            <div class="mt-2">
+
+                                <span class="prj-tags">Python</span>
+
+                                <span class="prj-tags">Tkinter</span>
+
+                                <span class="prj-tags">Desktop</span>
+
+                            </div>
+
+                            <div class="prj-button-container mt-2">
+                                <a type="button" href="https://github.com/ivanbaug/py-typing-speed"
+                                    class="btn btn-sm btn-outline-secondary py-0">Code</a>
+
+                                <span class="demo-msg">Not online</span>
+
+
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col p-1 prj-card-wrapper">
+                        <article class="prj-card d-flex flex-column">
+                            <img src="https://ivanotes.s3.amazonaws.com/img/0057-watermark.png"
+                                alt="desktop-img-watermark">
+                            <div class="prj-card-title mt-1">desktop-img-watermark</div>
+                            <div class="prj-card-description">Small desktop app to watermark images in python</div>
+                            <div class="flex-grow-1"></div>
+                            <div class="mt-2">
+
+                                <span class="prj-tags">Python</span>
+
+                                <span class="prj-tags">QtGui</span>
+
+                                <span class="prj-tags">Desktop</span>
+
+                            </div>
+
+                            <div class="prj-button-container mt-2">
+                                <a type="button" href="https://github.com/ivanbaug/desktop-img-watermark"
+                                    class="btn btn-sm btn-outline-secondary py-0">Code</a>
+
+                                <span class="demo-msg">Not online</span>
+
+
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col p-1 prj-card-wrapper">
+                        <article class="prj-card d-flex flex-column">
+                            <img src="https://ivanotes.s3.amazonaws.com/img/0054-spaceinv.png" alt="Space invaders">
+                            <div class="prj-card-title mt-1">Space invaders</div>
+                            <div class="prj-card-description">A space invaders game made with turtle.</div>
+                            <div class="flex-grow-1"></div>
+                            <div class="mt-2">
+
+                                <span class="prj-tags">Python</span>
+
+                                <span class="prj-tags">turtle</span>
+
+                                <span class="prj-tags">Desktop</span>
+
+                            </div>
+
+                            <div class="prj-button-container mt-2">
+                                <a type="button" href="https://github.com/ivanbaug/space-invaders-py"
+                                    class="btn btn-sm btn-outline-secondary py-0">Code</a>
+
+                                <span class="demo-msg">Not online</span>
+
+
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col p-1 prj-card-wrapper">
+                        <article class="prj-card d-flex flex-column">
+                            <img src="https://ivanotes.s3.amazonaws.com/img/0055-breakout.png" alt="Breakout Game">
+                            <div class="prj-card-title mt-1">Breakout Game</div>
+                            <div class="prj-card-description">Breakout game using python turtle.</div>
+                            <div class="flex-grow-1"></div>
+                            <div class="mt-2">
+
+                                <span class="prj-tags">Python</span>
+
+                                <span class="prj-tags">turtle</span>
+
+                                <span class="prj-tags">Desktop</span>
+
+                            </div>
+
+                            <div class="prj-button-container mt-2">
+                                <a type="button" href="https://github.com/ivanbaug/breakout-py"
+                                    class="btn btn-sm btn-outline-secondary py-0">Code</a>
+
+                                <a type="button" href="https://replit.com/@IvanBautista4/breakout-py#.replit"
+                                    class="btn btn-sm btn-outline-secondary py-0">Demo</a>
+
+
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col p-1 prj-card-wrapper">
+                        <article class="prj-card d-flex flex-column">
+                            <img src="https://ivanotes.s3.amazonaws.com/img/0031-replit.png" alt="Morse translator">
+                            <div class="prj-card-title mt-1">Morse translator</div>
+                            <div class="prj-card-description">Morse translator made as a quick test of replit services
+                            </div>
+                            <div class="flex-grow-1"></div>
+                            <div class="mt-2">
+
+                                <span class="prj-tags">Python</span>
+
+                            </div>
+
+                            <div class="prj-button-container mt-2">
+                                <a type="button" href="https://replit.com/@IvanBautista4/MorseTransl"
+                                    class="btn btn-sm btn-outline-secondary py-0">Code</a>
+
+                                <a type="button" href="https://replit.com/@IvanBautista4/MorseTransl"
+                                    class="btn btn-sm btn-outline-secondary py-0">Demo</a>
+
+
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <nav id="projects-pagination" aria-label="projects-pages">
+                <ul class="pagination justify-content-center" id="list-pagination">
+                    <li class="page-item disabled" id="first-pg-item">
+                        <button class="page-link" data-option="-1">Previous</button>
+                    </li>
+                    <li class="page-item" id="last-pg-item">
+                        <button class="page-link" data-option="2">Next</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+<!-- Projects section ends here -->
+{{end}}

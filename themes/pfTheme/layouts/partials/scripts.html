@@ -1,0 +1,11 @@
+<!-- Auto update year -->
+<script type="text/javascript">
+    document.getElementById("cdate").innerHTML = new Date().getFullYear();
+</script>
+
+{{ $bootstrap := resources.Get "js/bootstrap.bundle.min.js" }}
+{{ $disp := resources.Get "js/display-prjs.js" }}
+{{ $navbarjs := resources.Get "js/navbar-hide.js" }}
+{{ $jsBundle := slice $bootstrap $disp $navbarjs | resources.Concat "js/bundle.js" | minify | fingerprint }}
+
+<script src="{{ $jsBundle.Permalink | absURL}}"></script>

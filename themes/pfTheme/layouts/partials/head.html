@@ -1,0 +1,20 @@
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ivan's portfolio</title>
+    <link rel='shortcut icon' type='image/x-icon' href="/favicon.ico" />
+    <!--Styling -->
+    {{ $bootstrap := resources.Get "css/bootstrap.min.css" }}
+    {{ $styles := resources.Get "css/styles.css" }}
+    <!--TODO: 
+        https://www.youtube.com/watch?v=xN3w49LSMYo
+        https://christianoliff.com/blog/using-purgecss-with-hugo/
+        https://medium.com/dwarves-foundation/remove-unused-css-styles-from-bootstrap-using-purgecss-88395a2c5772
+     -->
+    {{ $cssBundle := slice $bootstrap $styles | resources.Concat "css/bundle.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $cssBundle.Permalink | absURL}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+</head>
