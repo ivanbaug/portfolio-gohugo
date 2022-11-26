@@ -1,0 +1,281 @@
+{
+  "projects": [
+    {
+      "title": "Bluetooth Robot",
+      "description": "Bluetooth controlled robot with a working prototype. Wrote the code for both the microcontroller and the android app.",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/0047-pf-btrobot.png",
+      "prj_url": "https://github.com/ivanbaug/bt-rbot",
+      "demo_url": "",
+      "stack": [
+        "Java",
+        "C++",
+        "Android"
+      ]
+    },
+    {
+      "title": "Controller Selector",
+      "description": "Webapp I made to easily select combinations of devices for a previous job given required i/o's",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/0048-dcapp3.png",
+      "prj_url": "https://github.com/ivanbaug/dc-ctrls",
+      "demo_url": "https://dc-ctrls-jdm27gv2nq-ue.a.run.app/",
+      "stack": [
+        "Python",
+        "html",
+        "css",
+        "JavaScript",
+        "Flask"
+      ]
+    },
+    {
+      "title": "Coffee and WiFi",
+      "description": "Site for sharing and rating coffee shops, specially the ones used for remote-work. You can rate seats, sockets, wifi, others.",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/0059-cafe1.png",
+      "prj_url": "https://github.com/ivanbaug/cafe-wifi",
+      "demo_url": "https://cafe-wifi-yctxl3no4a-ue.a.run.app",
+      "stack": [
+        "Python",
+        "JavaScript",
+        "Django",
+        "React",
+        "Redux",
+        "Postgres"
+      ]
+    },
+    {
+      "title": "e-commerce site",
+      "description": "Complete ecommerce app using Django and React, frontend in an AWS bucket, back in GCP. AWS hosted Postgres DB.",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/0049-shop1.png",
+      "prj_url": "https://github.com/ivanbaug/ecommerce-rd-backend",
+      "demo_url": "http://iv-shop.s3-website-us-east-1.amazonaws.com/",
+      "stack": [
+        "Python",
+        "html",
+        "css",
+        "JavaScript",
+        "Django",
+        "React"
+      ]
+    },
+    {
+      "title": "WebNovel Scrape",
+      "description": "Web Novel Scrape, is the result of the wish to keep reading a japanese webnovel that is not released in english yet, but it's available for free in japanese.",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/0058-wnscrape.png",
+      "prj_url": "https://github.com/ivanbaug/wn-scrape",
+      "demo_url": "",
+      "stack": [
+        "Python",
+        "bs4",
+        "Translate API"
+      ]
+    },
+    {
+      "title": "Starwars Test",
+      "description": "Frontend app that presents data from the StarWars API. Made with react, redux and axios as part of a selection process for a dev job. .",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/065-sw-text.png",
+      "prj_url": "https://github.com/ivanbaug/starwars-react",
+      "demo_url": "https://ivanbaug.github.io/starwars-react/",
+      "stack": [
+        "JavaScript",
+        "React",
+        "Redux",
+        "axios"
+      ]
+    },
+    {
+      "title": "Telegram bot",
+      "description": "Telegram bot that tells the weather and scraps a webpage to notify me on updates about a webnovel I like. The project is online trough a Docker container in a Raspberry Pi",
+      "img_url": "https://www.tuexpertoapps.com/wp-content/uploads/2021/05/los-mejores-bots-para-telegram-1-768x512.jpg",
+      "prj_url": "https://github.com/ivanbaug/informative_telegram",
+      "demo_url": "",
+      "stack": [
+        "Python",
+        "Telegram API"
+      ]
+    },
+    {
+      "title": "Ice Cream Plant Simulator",
+      "description": "A 3D simulator that interfaces with a microcontroller to test Siemens PLC programs where the user can evaluate multiple scenarios of the ice cream production process.",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/0051-icecreamprod.png",
+      "prj_url": "https://github.com/ivanbaug/unity-icecream",
+      "demo_url": "",
+      "stack": [
+        "C#",
+        "C++",
+        ".Net",
+        "Unity",
+        "Blender"
+      ]
+    },
+    {
+      "title": "Python blog",
+      "description": "Blog made while learning python, including DBs, user auth, templating. Previously hosted on heroku, now on Railway.",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/0050-blogpy2.png",
+      "prj_url": "https://github.com/ivanbaug/blog-users",
+      "demo_url": "https://web-production-5bde.up.railway.app/",
+      "stack": [
+        "Python",
+        "html",
+        "css",
+        "JavaScript",
+        "Flask"
+      ]
+    },
+    {
+      "title": "Github Finder",
+      "description": "App that uses the Github API to search and visualize users on that platform. Made as part of a react course.",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/066-github-finder.png",
+      "prj_url": "https://github-finder-livid-seven.vercel.app/",
+      "demo_url": "github-finder-ivanbaug.vercel.app",
+      "stack": [
+        "React",
+        "Context API",
+        "tailwind",
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "Dissapearing Text",
+      "description": "Notepad-like app that waits only a few seconds before erasing what you wrote. The idea is that you try to write constantly.",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/0053-dissapeartext.png",
+      "prj_url": "https://github.com/ivanbaug/dissapearing-text",
+      "demo_url": "",
+      "stack": [
+        "Python",
+        "Tkinter",
+        "Desktop"
+      ]
+    },
+    {
+      "title": "Typing Speed Test",
+      "description": "Desktop app to measures the typing speed of the user. Follows visually the characters as the user types.",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/0056-typespeed.png",
+      "prj_url": "https://github.com/ivanbaug/py-typing-speed",
+      "demo_url": "",
+      "stack": [
+        "Python",
+        "Tkinter",
+        "Desktop"
+      ]
+    },
+    {
+      "title": "desktop-img-watermark",
+      "description": "Small desktop app to watermark images in python",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/0057-watermark.png",
+      "prj_url": "https://github.com/ivanbaug/desktop-img-watermark",
+      "demo_url": "",
+      "stack": [
+        "Python",
+        "QtGui",
+        "Desktop"
+      ]
+    },
+    {
+      "title": "Space invaders",
+      "description": "A space invaders game made with turtle.",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/0054-spaceinv.png",
+      "prj_url": "https://github.com/ivanbaug/space-invaders-py",
+      "demo_url": "",
+      "stack": [
+        "Python",
+        "turtle",
+        "Desktop"
+      ]
+    },
+    {
+      "title": "Breakout Game",
+      "description": "Breakout game using python turtle.",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/0055-breakout.png",
+      "prj_url": "https://github.com/ivanbaug/breakout-py",
+      "demo_url": "https://replit.com/@IvanBautista4/breakout-py#.replit",
+      "stack": [
+        "Python",
+        "turtle",
+        "Desktop"
+      ]
+    },
+    {
+      "title": "Morse translator",
+      "description": "Morse translator made as a quick test of replit services",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/0031-replit.png",
+      "prj_url": "https://replit.com/@IvanBautista4/MorseTransl",
+      "demo_url": "https://replit.com/@IvanBautista4/MorseTransl",
+      "stack": [
+        "Python"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Software engineer",
+      "company": "Maggioli Latam",
+      "year": "2022-present",
+      "description": "Developing web applications for clients mainly in the Public Administration field. Devised models, queries, and procedures for PostgreSQL databases according to the project's specifications. Built RESTful APIs using Django (Python) or ASP.Net Core (C#) frameworks, depending on the project. Developed responsive UI components with Angular 2+, focusing on compliance with the client's style guidelines."
+    },
+    {
+      "title": "Automation engineer",
+      "company": "Davinci Control S.A.S. (Bogotá Colombia)",
+      "year": "2018-2021",
+      "description": "Estimating automation solutions for air conditioning systems, implementation of said systems leading a team that installs, commission and start-up the control and monitoring equipment. Programming the field controllers and developing user interfaces according to client requirements. Retrofit of out-of-date equipment leading to savings between 5 and 30% in energy consumption."
+    },
+    {
+      "title": "Design and projects engineer",
+      "company": "HVAC-Consulting S.A.S. (Bogotá Colombia)",
+      "year": "2014-2018",
+      "description": "Cooling/heating load calculations, air conditioning system selection/optimization for contracted buildings, plan drafting and documentation for the HVAC system of said buildings under ASHRAE Standards. Over 20 residential, commercial and industrial projects designed with highly energy efficient solutions."
+    }
+  ],
+  "education": [
+    {
+      "title": "Mechatronics Engineering (BS)",
+      "year": "2010-2015",
+      "at": "Universidad Militar Nueva Granada"
+    }
+  ],
+  "courses": [
+    {
+      "title": "Data Science/ Data Analytics DS4A",
+      "year": "2022",
+      "at": "Correlation One"
+    },
+    {
+      "title": "Modern Application Development with Python on AWS Specialization ",
+      "year": "2021",
+      "at": "Coursera"
+    },
+    {
+      "title": "Programa de seguro de Ahorros de la energia - ESI",
+      "year": "2020",
+      "at": "BID - Bancoldex"
+    },
+    {
+      "title": "FX Supervisory Controllers, FX Server and FX Workbench Advanced",
+      "year": "2020",
+      "at": "Johnson Controls"
+    },
+    {
+      "title": "Advanced FX Field controllers and CPO10",
+      "year": "2020",
+      "at": "Johnson Controls"
+    },
+    {
+      "title": "FX Workshop",
+      "year": "2018",
+      "at": "Johnson Controls"
+    },
+    {
+      "title": "PCT software and PCG Family MSTP Field controllers",
+      "year": "2018",
+      "at": "Johnson Controls"
+    },
+    {
+      "title": "Machine Learning",
+      "year": "2014",
+      "at": "Coursera"
+    },
+    {
+      "title": "6.00x: Introduction to Computer Science and Programming",
+      "year": "2013",
+      "at": "edX"
+    }
+  ]
+}

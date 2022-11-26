@@ -1,0 +1,21 @@
+<div class="col p-1 prj-card-wrapper">
+    <article class="prj-card d-flex flex-column">
+        <img src="{{ .img_url }}" alt="{{ .title }}">
+        <div class="prj-card-title mt-1">{{ .title }}</div>
+        <div class="prj-card-description">{{ .description }}</div>
+        <div class="flex-grow-1"></div>
+        <div class="mt-2">
+            {{ range .stack }}
+            <span class="prj-tags">{{ . }}</span>
+            {{ end }}
+        </div>
+        <div class="prj-button-container mt-2">
+            <a type="button" href="{{ .prj_url }}" class="btn btn-sm btn-outline-secondary py-0">Code</a>
+            {{if .demo_url}}
+            <a type="button" href="{{ .demo_url }}" class="btn btn-sm btn-outline-secondary py-0">Demo</a>
+            {{else}}
+            <span class="demo-msg">Offline</span>
+            {{end}}
+        </div>
+    </article>
+</div>

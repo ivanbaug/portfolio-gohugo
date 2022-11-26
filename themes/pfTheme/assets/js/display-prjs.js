@@ -57,7 +57,9 @@ const displayPrjPage = (page) => {
 }
 
 if (projects) {
+  const pagesElement = document.getElementById('projects-pagination')
   if (projects.length > cardNumber) {
+    pagesElement.style.display = 'block'
     // Display only first page
     displayPrjPage(1)
     // Number of pages
@@ -78,9 +80,5 @@ if (projects) {
     }
     lastItem.querySelector('.page-link').setAttribute('onclick', `pageChangeHandler(this, ${pageNum})`)
     firstItem.querySelector('.page-link').setAttribute('onclick', `pageChangeHandler(this, ${pageNum})`)
-  }
-  else {
-    const pagesElement = document.getElementById('projects-pagination')
-    pagesElement.style.display = 'none'
   }
 }
