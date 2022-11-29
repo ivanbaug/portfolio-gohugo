@@ -127,6 +127,7 @@ footer {
 
 .prj-card img {
   height: 215px;
+  max-width: 282px;
   /* width: auto; */
 }
 

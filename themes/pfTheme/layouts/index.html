@@ -9,8 +9,11 @@
     </noscript>
     <div class="row">
         <div class="col-md d-flex align-items-center">
-            <img class="mx-auto d-block align-middle" src="https://ivanotes.s3.amazonaws.com/img/0026-iv.png"
-                alt="profile-picture">
+            <picture class="mx-auto d-block align-middle">
+                <source srcset="https://notes-webp.s3.amazonaws.com/0026-iv.webp" type="image/webp">
+                <source srcset="https://ivanotes.s3.amazonaws.com/img/0026-iv.png" type="image/png">
+                <img src="https://ivanotes.s3.amazonaws.com/img/0026-iv.png" alt="profile-picture">
+            </picture>
         </div>
         <div class="col-md-6 d-flex align-items-center flex-column">
             <h1 class="name">Ivan Bautista</h1>
