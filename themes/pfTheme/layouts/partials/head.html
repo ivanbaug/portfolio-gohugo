@@ -7,15 +7,28 @@
         href="{{ site.Params.assets.favicon | default `favicon.ico` | absURL }}" />
     <!--Styling -->
     {{ $bootstrap := resources.Get "css/bootstrap.min.css" }}
-    {{ $styles := resources.Get "css/styles.css" }}
+    {{ $styles1 := resources.Get "css/styles.css" }}
     <!--TODO: 
         https://www.youtube.com/watch?v=xN3w49LSMYo
         https://christianoliff.com/blog/using-purgecss-with-hugo/
         https://medium.com/dwarves-foundation/remove-unused-css-styles-from-bootstrap-using-purgecss-88395a2c5772
      -->
-    {{ $cssBundle := slice $bootstrap $styles | resources.Concat "css/bundle.css" | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $cssBundle.Permalink | absURL}}">
+    {{/* {{ $cssBundle := slice $bootstrap $styles1 | resources.Concat "css/bundle.css" | minify | fingerprint }} */}}
+    {{ $cssBundle := slice $bootstrap $styles1 | resources.Concat "css/bundle.css" }}
+
+    {{ $sassOptions := (dict "enableSourceMap" true) }}
+    {{ $styles := $cssBundle | toCSS $sassOptions | postCSS | minify | fingerprint }}
+
+    <link rel="preload" href="{{ $styles.Permalink | absURL}}" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="{{ $styles.Permalink | absURL}}">
+    </noscript>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+    </noscript>
 </head>

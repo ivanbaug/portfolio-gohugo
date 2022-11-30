@@ -2,3 +2,5 @@ baseURL = 'https://ivanbaug.github.io/portfolio-gohugo'
 languageCode = 'en-us'
 title = "ivan's portfolio"
 theme = "pfTheme"
+[build]
+  writeStats = true
