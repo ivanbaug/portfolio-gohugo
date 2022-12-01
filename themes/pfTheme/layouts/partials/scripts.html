@@ -3,7 +3,7 @@
     document.getElementById("cdate").innerHTML = new Date().getFullYear();
 </script>
 
-{{ $bootstrap := resources.Get "js/bootstrap.bundle.min.js" }}
+{{ $bootstrap := resources.Get "js/customBS5.js" }}
 {{ $disp := resources.Get "js/display-prjs.js" }}
 {{ $navbarjs := resources.Get "js/navbar-hide.js" }}
 {{ $jsBundle := slice $bootstrap $disp $navbarjs | resources.Concat "js/bundle.js" | minify | fingerprint }}
