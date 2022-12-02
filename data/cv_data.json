@@ -4,7 +4,7 @@
       "title": "Bluetooth Robot",
       "description": "Bluetooth controlled robot with a working prototype. Wrote the code for both the microcontroller and the android app.",
       "img_url": "https://ivanotes.s3.amazonaws.com/img/0047-pf-btrobot.png",
-      "img_webp_url":"https://notes-webp.s3.amazonaws.com/0047-pf-btrobot.webp",
+      "img_webp_url": "https://notes-webp.s3.amazonaws.com/0047-pf-btrobot.webp",
       "prj_url": "https://github.com/ivanbaug/bt-rbot",
       "demo_url": "",
       "stack": [
@@ -17,7 +17,7 @@
       "title": "Controller Selector",
       "description": "Webapp I made to easily select combinations of devices for a previous job given required i/o's",
       "img_url": "https://ivanotes.s3.amazonaws.com/img/0048-dcapp3.png",
-      "img_webp_url":"https://notes-webp.s3.amazonaws.com/0048-dcapp3.webp",
+      "img_webp_url": "https://notes-webp.s3.amazonaws.com/0048-dcapp3.webp",
       "prj_url": "https://github.com/ivanbaug/dc-ctrls",
       "demo_url": "https://dc-ctrls-jdm27gv2nq-ue.a.run.app/",
       "stack": [
@@ -32,7 +32,7 @@
       "title": "Coffee and WiFi",
       "description": "Site for sharing and rating coffee shops, specially the ones used for remote-work. You can rate seats, sockets, wifi, others.",
       "img_url": "https://ivanotes.s3.amazonaws.com/img/0059-cafe1.png",
-      "img_webp_url":"https://notes-webp.s3.amazonaws.com/0059-cafe1.webp",
+      "img_webp_url": "https://notes-webp.s3.amazonaws.com/0059-cafe1.webp",
       "prj_url": "https://github.com/ivanbaug/cafe-wifi",
       "demo_url": "https://cafe-wifi-yctxl3no4a-ue.a.run.app",
       "stack": [
@@ -48,7 +48,7 @@
       "title": "e-commerce site",
       "description": "Complete ecommerce app using Django and React, frontend in an AWS bucket, back in GCP. AWS hosted Postgres DB.",
       "img_url": "https://ivanotes.s3.amazonaws.com/img/0049-shop1.png",
-      "img_webp_url":"https://notes-webp.s3.amazonaws.com/0049-shop1.webp",
+      "img_webp_url": "https://notes-webp.s3.amazonaws.com/0049-shop1.webp",
       "prj_url": "https://github.com/ivanbaug/ecommerce-rd-backend",
       "demo_url": "http://iv-shop.s3-website-us-east-1.amazonaws.com/",
       "stack": [
@@ -64,7 +64,7 @@
       "title": "WebNovel Scrape",
       "description": "Web Novel Scrape, is the result of the wish to keep reading a japanese webnovel that is not released in english yet, but it's available for free in japanese.",
       "img_url": "https://ivanotes.s3.amazonaws.com/img/0058-wnscrape.png",
-      "img_webp_url":"https://notes-webp.s3.amazonaws.com/0058-wnscrape.webp",
+      "img_webp_url": "https://notes-webp.s3.amazonaws.com/0058-wnscrape.webp",
       "prj_url": "https://github.com/ivanbaug/wn-scrape",
       "demo_url": "",
       "stack": [
@@ -77,7 +77,7 @@
       "title": "Starwars Test",
       "description": "Frontend app that presents data from the StarWars API. Made with react, redux and axios as part of a selection process for a dev job. .",
       "img_url": "https://ivanotes.s3.amazonaws.com/img/065-sw-text.png",
-      "img_webp_url":"https://notes-webp.s3.amazonaws.com/0065-sw-text.webp",
+      "img_webp_url": "https://notes-webp.s3.amazonaws.com/0065-sw-text.webp",
       "prj_url": "https://github.com/ivanbaug/starwars-react",
       "demo_url": "https://ivanbaug.github.io/starwars-react/",
       "stack": [
@@ -91,7 +91,7 @@
       "title": "Telegram bot",
       "description": "Telegram bot that tells the weather and scraps a webpage to notify me on updates about a webnovel I like. The project is online trough a Docker container in a Raspberry Pi",
       "img_url": "https://www.tuexpertoapps.com/wp-content/uploads/2021/05/los-mejores-bots-para-telegram-1-768x512.jpg",
-      "img_webp_url":"https://notes-webp.s3.amazonaws.com/0067-telegram.webp",
+      "img_webp_url": "https://notes-webp.s3.amazonaws.com/0067-telegram.webp",
       "prj_url": "https://github.com/ivanbaug/informative_telegram",
       "demo_url": "",
       "stack": [
@@ -103,7 +103,7 @@
       "title": "Ice Cream Plant Simulator",
       "description": "A 3D simulator that interfaces with a microcontroller to test Siemens PLC programs where the user can evaluate multiple scenarios of the ice cream production process.",
       "img_url": "https://ivanotes.s3.amazonaws.com/img/0051-icecreamprod.png",
-      "img_webp_url":"https://notes-webp.s3.amazonaws.com/0051-icecreamprod.webp",
+      "img_webp_url": "https://notes-webp.s3.amazonaws.com/0051-icecreamprod.webp",
       "prj_url": "https://github.com/ivanbaug/unity-icecream",
       "demo_url": "",
       "stack": [
@@ -118,7 +118,7 @@
       "title": "Python blog",
       "description": "Blog made while learning python, including DBs, user auth, templating. Previously hosted on heroku, now on Railway.",
       "img_url": "https://ivanotes.s3.amazonaws.com/img/0050-blogpy2.png",
-      "img_webp_url":"https://notes-webp.s3.amazonaws.com/0050-blogpy2.webp",
+      "img_webp_url": "https://notes-webp.s3.amazonaws.com/0050-blogpy2.webp",
       "prj_url": "https://github.com/ivanbaug/blog-users",
       "demo_url": "https://web-production-5bde.up.railway.app/",
       "stack": [
@@ -133,9 +133,9 @@
       "title": "Github Finder",
       "description": "App that uses the Github API to search and visualize users on that platform. Made as part of a react course.",
       "img_url": "https://ivanotes.s3.amazonaws.com/img/066-github-finder.png",
-      "img_webp_url":"https://notes-webp.s3.amazonaws.com/0066-github-finder.webp",
-      "prj_url": "https://github-finder-livid-seven.vercel.app/",
-      "demo_url": "github-finder-ivanbaug.vercel.app",
+      "img_webp_url": "https://notes-webp.s3.amazonaws.com/0066-github-finder.webp",
+      "prj_url": "https://github.com/ivanbaug/github-finder",
+      "demo_url": "https://github-finder-livid-seven.vercel.app/",
       "stack": [
         "React",
         "Context API",
@@ -147,7 +147,7 @@
       "title": "Dissapearing Text",
       "description": "Notepad-like app that waits only a few seconds before erasing what you wrote. The idea is that you try to write constantly.",
       "img_url": "https://ivanotes.s3.amazonaws.com/img/0053-dissapeartext.png",
-      "img_webp_url":"https://notes-webp.s3.amazonaws.com/0053-dissapeartext.webp",
+      "img_webp_url": "https://notes-webp.s3.amazonaws.com/0053-dissapeartext.webp",
       "prj_url": "https://github.com/ivanbaug/dissapearing-text",
       "demo_url": "",
       "stack": [
@@ -160,7 +160,7 @@
       "title": "Typing Speed Test",
       "description": "Desktop app to measures the typing speed of the user. Follows visually the characters as the user types.",
       "img_url": "https://ivanotes.s3.amazonaws.com/img/0056-typespeed.png",
-      "img_webp_url":"https://notes-webp.s3.amazonaws.com/0056-typespeed.webp",
+      "img_webp_url": "https://notes-webp.s3.amazonaws.com/0056-typespeed.webp",
       "prj_url": "https://github.com/ivanbaug/py-typing-speed",
       "demo_url": "",
       "stack": [
@@ -173,7 +173,7 @@
       "title": "desktop-img-watermark",
       "description": "Small desktop app to watermark images in python",
       "img_url": "https://ivanotes.s3.amazonaws.com/img/0057-watermark.png",
-      "img_webp_url":"https://notes-webp.s3.amazonaws.com/0057-watermark.webp",
+      "img_webp_url": "https://notes-webp.s3.amazonaws.com/0057-watermark.webp",
       "prj_url": "https://github.com/ivanbaug/desktop-img-watermark",
       "demo_url": "",
       "stack": [
@@ -186,7 +186,7 @@
       "title": "Space invaders",
       "description": "A space invaders game made with turtle.",
       "img_url": "https://ivanotes.s3.amazonaws.com/img/0054-spaceinv.png",
-      "img_webp_url":"https://notes-webp.s3.amazonaws.com/0054-spaceinv.webp",
+      "img_webp_url": "https://notes-webp.s3.amazonaws.com/0054-spaceinv.webp",
       "prj_url": "https://github.com/ivanbaug/space-invaders-py",
       "demo_url": "",
       "stack": [
@@ -199,7 +199,7 @@
       "title": "Breakout Game",
       "description": "Breakout game using python turtle.",
       "img_url": "https://ivanotes.s3.amazonaws.com/img/0055-breakout.png",
-      "img_webp_url":"https://notes-webp.s3.amazonaws.com/0055-breakout.webp",
+      "img_webp_url": "https://notes-webp.s3.amazonaws.com/0055-breakout.webp",
       "prj_url": "https://github.com/ivanbaug/breakout-py",
       "demo_url": "https://replit.com/@IvanBautista4/breakout-py#.replit",
       "stack": [
@@ -212,7 +212,7 @@
       "title": "Morse translator",
       "description": "Morse translator made as a quick test of replit services",
       "img_url": "https://ivanotes.s3.amazonaws.com/img/0031-replit.png",
-      "img_webp_url":"https://notes-webp.s3.amazonaws.com/0031-replit.webp",
+      "img_webp_url": "https://notes-webp.s3.amazonaws.com/0031-replit.webp",
       "prj_url": "https://replit.com/@IvanBautista4/MorseTransl",
       "demo_url": "https://replit.com/@IvanBautista4/MorseTransl",
       "stack": [
