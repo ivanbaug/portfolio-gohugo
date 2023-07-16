@@ -75,7 +75,7 @@
     },
     {
       "title": "Starwars Test",
-      "description": "Frontend app that presents data from the StarWars API. Made with react, redux and axios as part of a selection process for a dev job. .",
+      "description": "Frontend app that presents data from the StarWars API. Made with react, redux and axios as part of a selection process for a dev job.",
       "img_url": "https://ivanotes.s3.amazonaws.com/img/065-sw-text.png",
       "img_webp_url": "https://notes-webp.s3.amazonaws.com/0065-sw-text.webp",
       "prj_url": "https://github.com/ivanbaug/starwars-react",
@@ -85,6 +85,21 @@
         "React",
         "Redux",
         "axios"
+      ]
+    },
+    {
+      "title": "Electronics Shops",
+      "description": "A site to view/find electronics components from stores in my city. Inspired in rpilocator.com",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/0068-elecshops.png",
+      "img_webp_url": "https://notes-webp.s3.amazonaws.com/0068-elecshops.webp",
+      "prj_url": "https://github.com/ivanbaug/elecshops-astro",
+      "demo_url": "https://ivanbaug.github.io/elecshops-astro/",
+      "stack": [
+        "Golang",
+        "Postgres",
+        "Astro",
+        "Typescript",
+        "Tailwind"
       ]
     },
     {
