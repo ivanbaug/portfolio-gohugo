@@ -131,11 +131,11 @@
     },
     {
       "title": "Python blog",
-      "description": "Blog made while learning python, including DBs, user auth, templating. Previously hosted on heroku, now on Railway.",
+      "description": "Blog made while learning python, including DBs, user auth, templating. Previously hosted on h̶e̶r̶o̶k̶u̶,̶ ̶n̶o̶w̶ ̶o̶n̶ ̶R̶a̶i̶l̶w̶a̶y̶, somewhere else.",
       "img_url": "https://ivanotes.s3.amazonaws.com/img/0050-blogpy2.png",
       "img_webp_url": "https://notes-webp.s3.amazonaws.com/0050-blogpy2.webp",
       "prj_url": "https://github.com/ivanbaug/blog-users",
-      "demo_url": "https://web-production-5bde.up.railway.app/",
+      "demo_url": "https://notrealblog.thingiv.site/",
       "stack": [
         "Python",
         "html",
