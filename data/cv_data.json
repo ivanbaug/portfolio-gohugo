@@ -45,22 +45,6 @@
       ]
     },
     {
-      "title": "e-commerce site",
-      "description": "Complete ecommerce app using Django and React, frontend in an AWS bucket, back in GCP. AWS hosted Postgres DB.",
-      "img_url": "https://ivanotes.s3.amazonaws.com/img/0049-shop1.png",
-      "img_webp_url": "https://notes-webp.s3.amazonaws.com/0049-shop1.webp",
-      "prj_url": "https://github.com/ivanbaug/ecommerce-rd-backend",
-      "demo_url": "http://iv-shop.s3-website-us-east-1.amazonaws.com/",
-      "stack": [
-        "Python",
-        "html",
-        "css",
-        "JavaScript",
-        "Django",
-        "React"
-      ]
-    },
-    {
       "title": "WebNovel Scrape",
       "description": "Web Novel Scrape, is the result of the wish to keep reading a japanese webnovel that is not released in english yet, but it's available for free in japanese.",
       "img_url": "https://ivanotes.s3.amazonaws.com/img/0058-wnscrape.png",
@@ -103,6 +87,22 @@
       ]
     },
     {
+      "title": "e-commerce site",
+      "description": "Complete ecommerce app using Django and React, frontend in an AWS bucket, back in GCP. AWS hosted Postgres DB.",
+      "img_url": "https://ivanotes.s3.amazonaws.com/img/0049-shop1.png",
+      "img_webp_url": "https://notes-webp.s3.amazonaws.com/0049-shop1.webp",
+      "prj_url": "https://github.com/ivanbaug/ecommerce-rd-backend",
+      "demo_url": "http://iv-shop.s3-website-us-east-1.amazonaws.com/",
+      "stack": [
+        "Python",
+        "html",
+        "css",
+        "JavaScript",
+        "Django",
+        "React"
+      ]
+    },
+    {
       "title": "Telegram bot",
       "description": "Telegram bot that tells the weather and scraps a webpage to notify me on updates about a webnovel I like. The project is online trough a Docker container in a Raspberry Pi",
       "img_url": "https://www.tuexpertoapps.com/wp-content/uploads/2021/05/los-mejores-bots-para-telegram-1-768x512.jpg",
@@ -135,7 +135,7 @@
       "img_url": "https://ivanotes.s3.amazonaws.com/img/0050-blogpy2.png",
       "img_webp_url": "https://notes-webp.s3.amazonaws.com/0050-blogpy2.webp",
       "prj_url": "https://github.com/ivanbaug/blog-users",
-      "demo_url": "https://notrealblog.thingiv.site/",
+      "demo_url": "https://notrealblog.ivlab.top/",
       "stack": [
         "Python",
         "html",
