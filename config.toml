@@ -1,4 +1,4 @@
-baseURL = 'https://www.ivancb.com'
+baseURL = 'https://ivanbaug.github.io/portfolio-gohugo'
 languageCode = 'en-us'
 title = "ivan's portfolio"
 theme = "pfTheme"
